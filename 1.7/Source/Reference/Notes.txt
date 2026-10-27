@@ -5,3 +5,14 @@ C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\1127530465\
 Adv Heatsink
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\-1001-RimatomicsAdvHeatsink
 C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\3168935997
+
+
+
+
+
+
+
+
+TODO
+Considering random fluctuations that would require the cooling capacity to be higher than the average would suggest, probably as a toggle
+Increase the radiated heat?  Reduce the power?

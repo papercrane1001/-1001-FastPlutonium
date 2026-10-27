@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
+	<defName>ReactorCoreFast</defName>
+    <label>Reactor Type F</label>
+    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated.  This one generates less power, but it produces plutonium faster.</description>
+    <thingClass>_1001_FastPlutonium.FastBreederReactor</thingClass>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/CoreA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <size>(5,5)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <costList>
+      <Steel>350</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+	  <ComponentSpacer>6</ComponentSpacer>
+    </costList>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>
