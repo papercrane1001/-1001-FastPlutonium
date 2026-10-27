@@ -7,4 +7,16 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Rimatomics">
+      <HintPath>..\..\..\..\..\..\..\..\workshop\content\294100\1127530465\1.7\Assemblies\Rimatomics.dll</HintPath>
+    </Reference>
+    <Reference Include="RimWorld">
+      <HintPath>..\..\..\..\..\..\RimWorld.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
