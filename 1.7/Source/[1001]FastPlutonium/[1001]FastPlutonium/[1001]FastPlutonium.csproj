@@ -5,17 +5,31 @@
     <RootNamespace>_1001_FastPlutonium</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <BaseOutputPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[1001]FastPlutonium\1.7\Assemblies</BaseOutputPath>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\..\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Rimatomics">
       <HintPath>..\..\..\..\..\..\..\..\workshop\content\294100\1127530465\1.7\Assemblies\Rimatomics.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="RimWorld">
       <HintPath>..\..\..\..\..\..\RimWorld.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
 

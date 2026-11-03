@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[1001]Fast Plutonium</name>
+	<author>papercrane1001</author>
+	<packageId>papercrane1001.FastPlutonium</packageId>
+	<supportedVersions>
+		<li>1.7</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Dubwise.Rimatomics</li>
+	</loadAfter>
+	<description>
+	
+	\n\nVersion 1.0.0
+	\nFor version 1.7</description>
+</ModMetaData>
