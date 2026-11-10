@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<Def Class="Rimatomics.RimatomicResearchDef">
+		<defName>FastBreederReactor</defName>
+		<ResearchLabel>Fast Breeder Reactor</ResearchLabel>
+		<ProjTypeLabel>Research Facility</ProjTypeLabel>
+		<ResearchDesc>Doing Research!</ResearchDesc>
+		<ResearchDescDisc>Done doing Research!</ResearchDescDisc>
+		<price>7000</price>
+		<Screenshot>Rimatomics/Research/something</Screenshot>
+		<previewImageURL>Rimatomics/Things/RimatomicsBuildings/somethingElse</previewImageURL>
+		<Steps>
+            <li>FBR1</li>
+            <li>FBR2</li>
+        </Steps>
+		<prerequisites>
+            <li>NuclearReactor</li>
+        </prerequisites>
+	</Def>
+	
+	<Def Class="Rimatomics.ResearchStepDef">
+        <defName>FBR1</defName>
+        <PointCost>1800</PointCost>
+        <label>Research nuclear rate law</label>
+        <description>A skilled researcher needs to study how radioactive rates of reactions work in theory</description>
+        <WorkType>Research</WorkType>
+        <SkillLevel>10</SkillLevel>
+    </Def>
+	
+	<Def Class="Rimatomics.ResearchStepDef">
+        <defName>FBR2</defName>
+        <PointCost>5000</PointCost>
+        <label>Experiment with accelerating fission</label>
+        <description>A skilled researcher needs to study how radioactive rates of reactions perform in practice</description>
+        <WorkType>Research</WorkType>
+        <SkillLevel>10</SkillLevel>
+		<FacilityFailures>
+            <li>Failure_ArcDischarge</li>
+            <li>Failure_BlindingFlash</li>
+            <li>Failure_Overvoltage</li>
+			<li>Failure_RadiationLeak</li>
+        </FacilityFailures>
+		<Unlocks>
+            <li>ReactorCoreFast</li>
+        </Unlocks>
+    </Def>
+</Defs>
