@@ -4,11 +4,11 @@
 		<defName>FastBreederReactor</defName>
 		<ResearchLabel>Fast Breeder Reactor</ResearchLabel>
 		<ProjTypeLabel>Research Facility</ProjTypeLabel>
-		<ResearchDesc>Doing Research!</ResearchDesc>
-		<ResearchDescDisc>Done doing Research!</ResearchDescDisc>
+		<ResearchDesc>The Fast Breeder Reactor is an adaptation of the CoreA reactor with accelerated formation of Plutonium.  Unfortunately, each is still only capable of producing around than 200kW of power when fully fueled.</ResearchDesc>
+		<ResearchDescDisc>The Fast Breeder Reactor has been fully researched and is ready for deployment. Good luck with all those RTG's you're planning to make!     ...that's what you're planning to make, right?</ResearchDescDisc>
 		<price>7000</price>
-		<Screenshot>Rimatomics/Research/something</Screenshot>
-		<previewImageURL>Rimatomics/Things/RimatomicsBuildings/somethingElse</previewImageURL>
+		<Screenshot>Rimatomics/Research/reactor</Screenshot>
+		<previewImageURL>Rimatomics/Things/RimatomicsBuildings/CoreA</previewImageURL>
 		<Steps>
             <li>FBR1</li>
             <li>FBR2</li>
